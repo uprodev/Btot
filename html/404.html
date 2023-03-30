@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Btot</title>
+
+	
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/FA5PRO-master/css/all.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/intlTelInput.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	
+</head>
+<body>
+
+  <header>
+		<div class="top-line">
+			<div class="content-width">
+				<div class="logo-wrap">
+					<a href="index.html">
+						<img src="img/logo.svg" alt="">
+						<img src="img/logo-mob.svg" alt="" class="mob">
+					</a>
+					<div class="lang-wrap">
+						<div class="select-block ">
+							<label class="form-label" for="lang"><img src="img/icon-1.svg" alt=""></label>
+							<select id="lang" class="select">
+								<option value="1">Укр</option>
+								<option value="2">En</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="contact-wrap">
+					<ul class="contact-list">
+						<li>
+							<div class="icon-wrap">
+								<img src="img/icon-2.svg" alt="">
+							</div>
+							<p>Робочий час: <b>8.00-20.00</b></p>
+						</li>
+						<li>
+							<div class="icon-wrap">
+								<img src="img/icon-3.svg" alt="">
+							</div>
+							<p><a href="tel:+380673438585">38 (067) 343 85 85</a></p>
+						</li>
+					</ul>
+					<div class="btn-wrap">
+						<a href="#" class="btn-default btn-big">швидкий запит</a>
+					</div>
+					<div class="open-menu">
+						<a href="#">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="second-line">
+			<div class="content-width">
+				<nav class="top-menu">
+					<ul>
+						<li><a href="index.html"><img src="img/icon-5.svg" alt="">Welcome to Ukraine</a></li>
+						<li class="sub-li">
+							<a href="index.html">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ ПОДОРОЖІ</a>
+							<ul class="sub-menu">
+								<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+								<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+								<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+							</ul>
+						</li>
+						<li><a href="index.html">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+						<li><a href="index.html">МОРСЬКІ КРУЇЗИ</a></li>
+						<li><a href="index.html">BUSINESS WEEKEND</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+  </header>
+
+	<div class="menu-responsive" id="menu-responsive" style="display: none">
+		<div class="top">
+			<div class="close-menu">
+				<a href="#"><img src="img/close.svg" alt=""></a>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="title">
+				<h6>Меню</h6>
+			</div>
+			<nav class="mob-menu">
+				<ul>
+					<li><a href="index.html"><img src="img/icon-5.svg" alt="">Welcome to Ukraine</a></li>
+					<li class="sub-li">
+						<a href="index.html">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ ПОДОРОЖІ</a>
+						<ul class="sub-menu">
+							<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+							<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+							<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+					<li><a href="index.html">МОРСЬКІ КРУЇЗИ</a></li>
+					<li><a href="index.html">BUSINESS WEEKEND</a></li>
+				</ul>
+			</nav>
+			<div class="contact-wrap">
+				<ul class="contact-list">
+					<li>
+						<div class="icon-wrap">
+							<img src="img/icon-2.svg" alt="">
+						</div>
+						<p>Робочий час: <b>8.00-20.00</b></p>
+					</li>
+					<li>
+						<div class="icon-wrap">
+							<img src="img/icon-3.svg" alt="">
+						</div>
+						<p><a href="tel:+380673438585">38 (067) 343 85 85</a></p>
+					</li>
+				</ul>
+				<div class="lang-wrap">
+					<div class="select-block ">
+						<label class="form-label" for="lang-mob"><img src="img/icon-1.svg" alt=""></label>
+						<select id="lang-mob" class="select">
+							<option value="1">Укр</option>
+							<option value="2">En</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="btn-wrap">
+				<a href="#" class="btn-default btn-big">швидкий запит</a>
+			</div>
+		</div>
+	</div>
+
+	<main >
+		<section class="block-404">
+			<div class="content-width">
+				<div class="text-wrap">
+					<h1>Потерянный<br>
+						в нашем пространстве</h1>
+					<p>Страница, которую вы ищете, больше не существует. Почему бы не попробовать эти полезные ссылки вместо этого.</p>
+					<ul>
+						<li><a href="#">Welcome to Ukraine</a></li>
+						<li><a href="#">МОРСЬКІ КРУЇЗИ</a></li>
+						<li><a href="#">ДІЛОВІ ЗАХОДИ</a></li>
+						<li><a href="#">BUSINESS WEEKEND</a></li>
+						<li><a href="#">КОРПОРАТИВНІ ПОДОРОЖІ</a></li>
+						<li><a href="#">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+					</ul>
+				</div>
+				<figure>
+					<h2>Потерянный<br>
+						в нашем пространстве</h2>
+					<img src="img/img-13.png" alt="">
+				</figure>
+			</div>
+		</section>
+
+
+	</main>
+
+  <footer>
+    <div class="content-width">
+			<div class="logo-wrap">
+				<a href="index.html">
+					<img src="img/logo-1.svg" alt="">
+					<img src="img/logo-1-mob.svg" alt="" class="mob">
+				</a>
+				<ul class="soc">
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				</ul>
+				<div class="mob-block">
+					<h6><a href="tel:+380673438585">+38 (067) 343 85 85</a></h6>
+				</div>
+			</div>
+			<nav class="footer-menu">
+				<ul>
+					<li><a href="#">Welcome to Ukraine</a></li>
+					<li><a href="#">МОРСЬКІ КРУЇЗИ</a></li>
+					<li><a href="#">ДІЛОВІ ЗАХОДИ</a></li>
+					<li><a href="#">BUSINESS WEEKEND</a></li>
+					<li><a href="#">КОРПОРАТИВНІ ПОДОРОЖІ</a></li>
+					<li><a href="#">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+				</ul>
+			</nav>
+			<div class="contact-wrap">
+				<h6><a href="tel:+380673438585">+38 (067) 343 85 85</a></h6>
+				<p>Час роботи: 8.00-20.00</p>
+				<p><a href="mailto:info@btot.com.ua">info@btot.com.ua</a></p>
+			</div>
+
+			<div class="bottom">
+				<p>Все права защищены © 2023</p>
+				<p><a href="#">Сайт разработан</a></p>
+				<div class="mob-block">
+					<ul class="soc">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					</ul>
+				</div>
+			</div>
+    </div>
+  </footer>
+
+	<div id="fast" class="default-popup" style="display: none">
+		<div class="popup-main">
+			<h3>Запитайте зараз</h3>
+			<p>Компанія Veena World MICE tours професійно задовольнить усі ваші потреби у ділових поїздках. Наша команда буде рада допомогти вам </p>
+			<form action="#" class="default-form">
+				<div class="input-wrap input-wrap-50">
+					<label for="name-popup">Прізвище, ім’я</label>
+					<input type="text" name="name-popup" id="name-popup" placeholder="Денисенко Тамара">
+				</div>
+				<div class="input-wrap input-wrap-50">
+					<label for="email-popup">Email</label>
+					<input type="email" name="email-popup" id="email-popup" placeholder="name@company.com">
+				</div>
+				<div class="input-wrap ">
+					<label for="tel-popup">Номер телефону</label>
+					<input type="text" name="tel-popup" id="tel-popup" placeholder="(000) 000-00-00" class="tel">
+				</div>
+				<div class="input-wrap ">
+					<label for="message-popup">Повідомлення</label>
+					<textarea name="message-popup" id="message-popup" placeholder="Чи хотіли б ви надати більше деталей"></textarea>
+				</div>
+				<div class="input-wrap-submit">
+					<button type="submit" class="btn-default btn-big">відправити</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<div id="filter" class="default-popup popup-filter" style="display: none">
+		<div class="left-filter">
+
+			<div class="wrap">
+				<div class="top">
+					<h4>Фільтри</h4>
+					<div class="btn-wrap">
+						<button type="reset">Очистити фільтри</button>
+					</div>
+				</div>
+				<div class="item-list item-1 item">
+					<a href="#" class="head-filter">курортний регіон <i class="fas fa-chevron-down"></i></a>
+					<div class="filter filter-0">
+						<ul>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-1p">
+								<label for="data-0-1p">Дністровський регіон</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-2p">
+								<label for="data-0-2p">Затока</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-3p">
+								<label for="data-0-3p">Кароліна Бугаз</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0" id="data-0-4p">
+								<label for="data-0-4p">Буковель</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-5p">
+								<label for="data-0-5p">Буковель</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-6p">
+								<label for="data-0-6p">Буковель</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-7p">
+								<label for="data-0-7p">Буковель</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-0p" id="data-0-8p">
+								<label for="data-0-8p">Буковель</label>
+							</li>
+						</ul>
+						<a href="#" class="show-more-filter">
+							<span>Показати ще</span>
+							<span>Приховати</span>
+						</a>
+					</div>
+
+				</div>
+				<div class="item-list item-2 item">
+					<a href="#" class="head-filter">ТИп відпочинку <i class="fas fa-chevron-down"></i></a>
+					<div class="filter filter-1">
+						<ul>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-1p">
+								<label for="data-1-1p">Івенти</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-2p">
+								<label for="data-1-2p">Дегустації</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-3p">
+								<label for="data-1-3p">Екскурсії</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-4p">
+								<label for="data-1-4p">Нічне життя</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-5p">
+								<label for="data-1-5p">Пляжі</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-6p">
+								<label for="data-1-6p">Готові рішення</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-7p">
+								<label for="data-1-7p">Готові рішення</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-1p" id="data-1-8p">
+								<label for="data-1-8p">Готові рішення</label>
+							</li>
+						</ul>
+						<a href="#" class="show-more-filter">
+							<span>Показати ще</span>
+							<span>Приховати</span>
+						</a>
+					</div>
+
+				</div>
+				<div class="item-3 item">
+					<a href="#" class="head-filter">Тривалість туру <i class="fas fa-chevron-down"></i></a>
+					<div class="filter filter-2">
+						<div class="extra-controls">
+
+							<div>
+								<label for="from1">від</label>
+								<input type="text" value="3" class="inp js-from" id="from1" />
+							</div>
+
+							<div>
+								<label for="to1">До</label>
+								<input type="text" value="30" class="inp js-to" id="to1"/>
+								<span>днів</span>
+							</div>
+						</div>
+						<div class="range-slider">
+							<label for="range1"></label>
+							<input type="text" class="js-range-slider" value="" id="range1"/>
+						</div>
+					</div>
+
+				</div>
+				<div class="item-list item-4 item">
+					<a href="#" class="head-filter">кількість людей <i class="fas fa-chevron-down"></i></a>
+					<div class="filter filter-3">
+						<ul>
+							<li>
+								<input type="checkbox" name="data-2p" id="data-2-1p">
+								<label for="data-2-1p">1</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-2p" id="data-2-2p">
+								<label for="data-2-2p">2</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-2p" id="data-2-3p">
+								<label for="data-2-3p">3</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-2p" id="data-2-4p">
+								<label for="data-2-4p">4</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-2p" id="data-2-5p">
+								<label for="data-2-5p">5</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-2p" id="data-2-6p">
+								<label for="data-2-6p">6+</label>
+							</li>
+
+						</ul>
+						<a href="#" class="show-more-filter">
+							<span>Показати ще</span>
+							<span>Приховати</span>
+						</a>
+					</div>
+
+				</div>
+				<div class="item-list item-5 item">
+					<a href="#" class="head-filter">що пропонуємо <i class="fas fa-chevron-down"></i></a>
+					<div class="filter filter-4">
+						<ul>
+							<li>
+								<input type="checkbox" name="data-3p" id="data-3-1p">
+								<label for="data-3-1p">Трансфер включено</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-3p" id="data-3-2p">
+								<label for="data-3-2p">Харчування під час програми</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-3p" id="data-3-3p">
+								<label for="data-3-3p">Супровід ескурсовода</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-3p" id="data-3-4p">
+								<label for="data-3-4p">Послуги перекладача</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-3p" id="data-3-5p">
+								<label for="data-3-5p">Послуги перекладача</label>
+							</li>
+							<li>
+								<input type="checkbox" name="data-3p" id="data-3-6p">
+								<label for="data-3-6p">Послуги перекладача</label>
+							</li>
+
+						</ul>
+						<a href="#" class="show-more-filter">
+							<span>Показати ще</span>
+							<span>Приховати</span>
+						</a>
+					</div>
+
+				</div>
+				<div class="btn-wrap-full">
+					<button type="submit" class="btn-default btn-big btn-border">Застосувати</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/cuttr.min.js"></script>
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="js/ion.rangeSlider.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

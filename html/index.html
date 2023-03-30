@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Btot</title>
+
+	
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/FA5PRO-master/css/all.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/intlTelInput.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	
+</head>
+<body>
+
+  <header>
+		<div class="top-line">
+			<div class="content-width">
+				<div class="logo-wrap">
+					<a href="index.html">
+						<img src="img/logo.svg" alt="">
+						<img src="img/logo-mob.svg" alt="" class="mob">
+					</a>
+					<div class="lang-wrap">
+						<div class="select-block ">
+							<label class="form-label" for="lang"><img src="img/icon-1.svg" alt=""></label>
+							<select id="lang" class="select">
+								<option value="1">Укр</option>
+								<option value="2">En</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="contact-wrap">
+					<ul class="contact-list">
+						<li>
+							<div class="icon-wrap">
+								<img src="img/icon-2.svg" alt="">
+							</div>
+							<p>Робочий час: <b>8.00-20.00</b></p>
+						</li>
+						<li>
+							<div class="icon-wrap">
+								<img src="img/icon-3.svg" alt="">
+							</div>
+							<p><a href="tel:+380673438585">38 (067) 343 85 85</a></p>
+						</li>
+					</ul>
+					<div class="btn-wrap">
+						<a href="#" class="btn-default btn-big">швидкий запит</a>
+					</div>
+					<div class="open-menu">
+						<a href="#">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="second-line">
+			<div class="content-width">
+				<nav class="top-menu">
+					<ul>
+						<li><a href="index.html"><img src="img/icon-5.svg" alt="">Welcome to Ukraine</a></li>
+						<li class="sub-li">
+							<a href="index.html">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ ПОДОРОЖІ</a>
+							<ul class="sub-menu">
+								<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+								<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+								<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+							</ul>
+						</li>
+						<li><a href="index.html">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+						<li><a href="index.html">МОРСЬКІ КРУЇЗИ</a></li>
+						<li><a href="index.html">BUSINESS WEEKEND</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+  </header>
+
+	<div class="menu-responsive" id="menu-responsive" style="display: none">
+		<div class="top">
+			<div class="close-menu">
+				<a href="#"><img src="img/close.svg" alt=""></a>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="title">
+				<h6>Меню</h6>
+			</div>
+			<nav class="mob-menu">
+				<ul>
+					<li><a href="index.html"><img src="img/icon-5.svg" alt="">Welcome to Ukraine</a></li>
+					<li class="sub-li">
+						<a href="index.html">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ ПОДОРОЖІ</a>
+						<ul class="sub-menu">
+							<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+							<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+							<li><a href="#">ДІЛОВІ ЗАХОДИ ТА КОРПОРАТИВНІ</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+					<li><a href="index.html">МОРСЬКІ КРУЇЗИ</a></li>
+					<li><a href="index.html">BUSINESS WEEKEND</a></li>
+				</ul>
+			</nav>
+			<div class="contact-wrap">
+				<ul class="contact-list">
+					<li>
+						<div class="icon-wrap">
+							<img src="img/icon-2.svg" alt="">
+						</div>
+						<p>Робочий час: <b>8.00-20.00</b></p>
+					</li>
+					<li>
+						<div class="icon-wrap">
+							<img src="img/icon-3.svg" alt="">
+						</div>
+						<p><a href="tel:+380673438585">38 (067) 343 85 85</a></p>
+					</li>
+				</ul>
+				<div class="lang-wrap">
+					<div class="select-block ">
+						<label class="form-label" for="lang-mob"><img src="img/icon-1.svg" alt=""></label>
+						<select id="lang-mob" class="select">
+							<option value="1">Укр</option>
+							<option value="2">En</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="btn-wrap">
+				<a href="#" class="btn-default btn-big">швидкий запит</a>
+			</div>
+		</div>
+	</div>
+
+	<main>
+
+		<section class="home-banner">
+			<div class="content-width">
+				<div class="swiper banner-slider">
+					<div class="swiper-wrapper">
+
+
+						<div class="swiper-slide swiper-slide-1">
+							<div class="bg">
+								<img src="img/img-1.jpg" alt="">
+							</div>
+							<div class="content">
+								<div class="bg-content"></div>
+								<div class="wrap">
+									<h1>Тимбілдинг</h1>
+									<h6>який перезавантажить команду</h6>
+									<ul class="list-check">
+										<li>Допоможемо з організацією тимбілдингу<br>
+											в Україні та за кордоном. </li>
+										<li>Забудьте про занудні лекції та банальні естафети. </li>
+										<li>Ми проводили безліч масштабних активних заходів в Карпатах та на морі. </li>
+									</ul>
+									<p class="after"><span>Для вас зробимо ще крутіше!</span> <img src="img/icon-6.svg" alt=""></p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-2">
+							<div class="bg">
+								<img src="img/bg-1.jpg" alt="">
+							</div>
+							<div class="content">
+								<div class="bg-content"></div>
+								<div class="wrap">
+									<h5>Корпоративні заходи</h5>
+									<h2>«під ключ»</h2>
+									<h6>Зробіть речі простими та заощаджуйте час, гроші та зусилля</h6>
+									<ul class="list-check">
+										<li>Потрібна швидка та ідеальна організація ділового
+											чи корпоративного заходу </li>
+										<li>Немає жодних ідей </li>
+										<li>Ми надаємо готові рішення та послуги, щоб допомогти компанія взяти під контроль свої зустрічі та корпоративні заходи!</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-3">
+							<div class="bg">
+								<img src="img/bg-2.jpg" alt="">
+							</div>
+							<div class="content">
+								<div class="bg-content">
+									<img src="img/img-6.png" alt="">
+								</div>
+								<div class="wrap">
+									<h5>Подорож <b>до</b></h5>
+									<h2>Карпат</h2>
+									<h5 class="sub-title">З командою чи бізнес партнерами? Легко!</h5>
+									<ul class="list-check">
+										<li>Без перебільшення, ми можемо організувати найкращий відпочинок у Карпатах. </li>
+										<li>Більше 15 років ми успішно працюємо в сфері організації корпоративного відпочинку в Україні, а саме в Карпатах.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-4">
+							<div class="bg">
+								<img src="img/bg-3.jpg" alt="">
+							</div>
+							<div class="content">
+								<div class="bg-content"></div>
+								<div class="wrap">
+									<div class="title-wrap">
+										<h5>Професійна організація </h5>
+										<h5>ділових та корпоративних заходів</h5>
+									</div>
+									<h6> в Україні та за кордоном</h6>
+									<p class="after"><span>Тимбілдинг нового рівня</span>  <img src="img/icon-11.svg" alt=""></p>
+									<ul class="list-check">
+										<li>Ніяких випробувань</li>
+										<li>Тільки відпочинок, розваги та позитивні емоції</li>
+										<li>Які допоможуть адаптувати співробітників до нових умов. </li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination banner-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="select-city">
+			<div class="content-width">
+				<div class="top">
+					<h2>Корпоративні заходи -<br>
+						Це потужний інструмент мотивації команди та рестарту бізнесу</h2>
+					<p>Проте лише думки про організацію такого дійства, викликають у більшості ТОПів та CEO панічні атаки. Без паніки!</p>
+
+					<p>Команда Business To Travel готова взяти на себе всі обов’язки, щодо організації заходів «під ключ». Вам треба лише зв’язатися з нами та назвати дату і кількість учасників. Все інше ми беремо на себе.</p>
+				</div>
+				<div class="item-wrap">
+					<div class="item item-1">
+						<div class="bg">
+							<img src="img/img-2-1.jpg" alt="">
+						</div>
+						<a href="#">
+							<h6>Одеса</h6>
+							<p>Море, яхтинг, закриті пляжі, ну і кльові екскурсії …</p>
+							<span class="icon-wrap">
+								<img src="img/icon-8.svg" alt="">
+							</span>
+						</a>
+					</div>
+					<div class="item item-2">
+						<div class="bg">
+							<img src="img/img-2-2.jpg" alt="">
+						</div>
+						<a href="#">
+							<h6>Карпати</h6>
+							<p>Незвичайні заходи, розраховані на корпоративне дозвілля.</p>
+							<span class="icon-wrap">
+								<img src="img/icon-8.svg" alt="">
+							</span>
+						</a>
+					</div>
+					<div class="item item-3">
+						<div class="bg">
+							<img src="img/img-2-3.jpg" alt="">
+						</div>
+						<a href="#">
+							<h6>Єгипет</h6>
+							<p>MICE тури на Червоне море - SUMMER 365.</p>
+							<span class="icon-wrap">
+								<img src="img/icon-8.svg" alt="">
+							</span>
+						</a>
+					</div>
+					<div class="item item-4">
+						<div class="bg">
+							<img src="img/img-2-4.jpg" alt="">
+						</div>
+						<a href="#">
+							<h6>Львів</h6>
+							<p>Незвичайні заходи, розраховані на корпоративне дозвілля.</p>
+							<span class="icon-wrap">
+								<img src="img/icon-8.svg" alt="">
+							</span>
+						</a>
+					</div>
+					<div class="item item-5">
+						<div class="bg">
+							<img src="img/img-2-5.jpg" alt="">
+						</div>
+						<a href="#">
+							<h6>Київ</h6>
+							<p>Ділові заходи та тимбілдинг у найкрутішій столиці</p>
+							<span class="icon-wrap">
+								<img src="img/icon-8.svg" alt="">
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="slider-info-wrap">
+			<div class="content-width">
+				<div class="top">
+					<h2>ІДЕЇ, ЩОБ НАДИХНУТИ<br>
+						ДЛЯ КОРПОРАТИВНИХ ТУРІВ</h2>
+				</div>
+				<div class="slider-wrap">
+					<div class="swiper slider-info">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide ">
+								<figure>
+									<img src="img/img-3-1.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<p>Отримати масу вражень, зарядитися позитивною енергією і перевірити своїх співробітників</p>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<figure>
+									<img src="img/img-3-2.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<p>Квест на природі дозволить вашим співробітникам не тільки провести час на свіжому повітрі</p>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<figure>
+									<img src="img/img-3-3.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<p>Таїланд давно завоював славу одного з найкращих місць для відпочинку в зимовий період</p>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<figure>
+									<img src="img/img-3-4.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<p>Фукуок — найбільший острів В'єтнаму, а тому і самий популярний.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="nav-wrap">
+						<div class="swiper-button-next info-next"></div>
+						<div class="swiper-button-prev info-prev"></div>
+					</div>
+					<div class="swiper-pagination info-pagination"></div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="tour">
+			<div class="content-width">
+				<div class="top">
+					<h2>ІДЕЇ, ЩОБ НАДИХНУТИ<br>
+						ДЛЯ КОРПОРАТИВНИХ ТУРІВ</h2>
+				</div>
+				<div class="slider-wrap">
+					<div class="swiper slider-tour">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<figure>
+									<img src="img/img-4-1.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<h6>Прага</h6>
+									<p class="date">14.09.2023</p>
+									<p class="cost">120 EURO</p>
+									<p><a href="#fast" class="fancybox">Детальніше</a></p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<figure>
+									<img src="img/img-4-2.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<h6>Франція</h6>
+									<p class="date">14.09.2023</p>
+									<p class="cost">90 EURO</p>
+									<p><a href="#fast" class="fancybox">Детальніше</a></p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<figure>
+									<img src="img/img-4-3.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<h6>Австрія</h6>
+									<p class="date">14.09.2023</p>
+									<p class="cost">90 EURO</p>
+									<p><a href="#fast" class="fancybox">Детальніше</a></p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<figure>
+									<img src="img/img-4-4.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<h6>США</h6>
+									<p class="date">14.09.2023</p>
+									<p class="cost">90 EURO</p>
+									<p><a href="#fast" class="fancybox">Детальніше</a></p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<figure>
+									<img src="img/img-4-5.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<h6>Японія</h6>
+									<p class="date">14.09.2023</p>
+									<p class="cost">2 000 EURO</p>
+									<p><a href="#fast" class="fancybox">Детальніше</a></p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<figure>
+									<img src="img/img-4-6.jpg" alt="">
+								</figure>
+								<div class="text-wrap">
+									<h6>Фукуок</h6>
+									<p class="date">14.09.2023</p>
+									<p class="cost">2 000 EURO</p>
+									<p><a href="#fast" class="fancybox">Детальніше</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination tour-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="partners">
+			<div class="content-width">
+				<h2>Партнери</h2>
+				<div class="content">
+					<figure>
+						<img src="img/img-5-1.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-2.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-3.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-4.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-5.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-6.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-7.jpg" alt="">
+					</figure>
+					<figure>
+						<img src="img/img-5-8.jpg" alt="">
+					</figure>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+  <footer>
+    <div class="content-width">
+			<div class="logo-wrap">
+				<a href="index.html">
+					<img src="img/logo-1.svg" alt="">
+					<img src="img/logo-1-mob.svg" alt="" class="mob">
+				</a>
+				<ul class="soc">
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				</ul>
+				<div class="mob-block">
+					<h6><a href="tel:+380673438585">+38 (067) 343 85 85</a></h6>
+				</div>
+			</div>
+			<nav class="footer-menu">
+				<ul>
+					<li><a href="#">Welcome to Ukraine</a></li>
+					<li><a href="#">МОРСЬКІ КРУЇЗИ</a></li>
+					<li><a href="#">ДІЛОВІ ЗАХОДИ</a></li>
+					<li><a href="#">BUSINESS WEEKEND</a></li>
+					<li><a href="#">КОРПОРАТИВНІ ПОДОРОЖІ</a></li>
+					<li><a href="#">МІСЕ ТУРИ ЗА КОРДОН</a></li>
+				</ul>
+			</nav>
+			<div class="contact-wrap">
+				<h6><a href="tel:+380673438585">+38 (067) 343 85 85</a></h6>
+				<p>Час роботи: 8.00-20.00</p>
+				<p><a href="mailto:info@btot.com.ua">info@btot.com.ua</a></p>
+			</div>
+
+			<div class="bottom">
+				<p>Все права защищены © 2023</p>
+				<p><a href="#">Сайт разработан</a></p>
+				<div class="mob-block">
+					<ul class="soc">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					</ul>
+				</div>
+			</div>
+    </div>
+  </footer>
+
+	<div id="fast" class="default-popup" style="display: none">
+		<div class="popup-main">
+			<h3>Запитайте зараз</h3>
+			<p>Компанія Veena World MICE tours професійно задовольнить усі ваші потреби у ділових поїздках. Наша команда буде рада допомогти вам </p>
+			<form action="#" class="default-form">
+				<div class="input-wrap input-wrap-50">
+					<label for="name-popup">Прізвище, ім’я</label>
+					<input type="text" name="name-popup" id="name-popup" placeholder="Денисенко Тамара">
+				</div>
+				<div class="input-wrap input-wrap-50">
+					<label for="email-popup">Email</label>
+					<input type="email" name="email-popup" id="email-popup" placeholder="name@company.com">
+				</div>
+				<div class="input-wrap ">
+					<label for="tel-popup">Номер телефону</label>
+					<input type="text" name="tel-popup" id="tel-popup" placeholder="(000) 000-00-00" class="tel">
+				</div>
+				<div class="input-wrap ">
+					<label for="message-popup">Повідомлення</label>
+					<textarea name="message-popup" id="message-popup" placeholder="Чи хотіли б ви надати більше деталей"></textarea>
+				</div>
+				<div class="input-wrap-submit">
+					<button type="submit" class="btn-default btn-big">відправити</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/cuttr.min.js"></script>
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
