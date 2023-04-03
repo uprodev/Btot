@@ -2818,5 +2818,16 @@ header .mob{
     overflow: visible;
   }
 }
+
+.top-menu > ul > li > a img{
+  -moz-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.top-menu > ul > li > a:hover img{
+  filter: invert(36%) sepia(59%) saturate(1532%) hue-rotate(332deg) brightness(97%) contrast(82%);
+}
 /*---------------------END-PAGE-DEFAULT-----------------------*/
 
