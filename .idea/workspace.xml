@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d0fcdf1-e95a-4784-84fa-cfd288189abc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/html/sass/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="6d0fcdf1-e95a-4784-84fa-cfd288189abc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680510043763</updated>
-      <workItem from="1680510044807" duration="710000" />
+      <workItem from="1680510044807" duration="1320000" />
     </task>
     <servers />
   </component>

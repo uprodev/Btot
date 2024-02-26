@@ -38,6 +38,7 @@ jQuery(document).ready(function ($) {
   var swiperTour = new Swiper(".slider-tour", {
     slidesPerView: "auto",
     spaceBetween: 20,
+    autoHeight: true,
     pagination: {
       el: ".tour-pagination",
       clickable: true,
@@ -178,8 +179,8 @@ jQuery(document).ready(function ($) {
     $from = $(".js-from"),
     $to = $(".js-to"),
     range,
-    min = 0,
-    max = 200000,
+    min = 3,
+    max = 30,
     from,
     to;
 
